@@ -47,12 +47,16 @@ body {
     background-color: #f39c12;
 }
 
-#clear {
+#clear, #backspace {
     background-color: #e74c3c;
 }
 
 #equals {
     background-color: #2ecc71;
+}
+
+#decimal {
+    background-color: #3498db;
 }
 
 .button:hover {
@@ -63,10 +67,14 @@ body {
     background-color: #e67e22;
 }
 
-#clear:hover {
+#clear:hover, #backspace:hover {
     background-color: #c0392b;
 }
 
 #equals:hover {
     background-color: #27ae60;
+}
+
+#decimal:hover {
+    background-color: #2980b9;
 }
